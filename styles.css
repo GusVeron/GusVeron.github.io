@@ -112,15 +112,17 @@ section h2 {
 
 /* Certificados */
 .certificados-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+    display: flex;              
+    justify-content: center;    
+    gap: 15px;                  
 }
 
 .certificados-grid img {
-    width: 100%;
+    width: 300px;               
+    height: auto;               
     border-radius: 10px;
 }
+
 
 /* Botón arriba */
 .top-btn {
