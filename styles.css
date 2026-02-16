@@ -1,69 +1,97 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0f172a;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
     color: white;
     text-align: center;
 }
 
 header {
-    padding: 60px 20px;
+    padding: 40px 20px;
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #38bdf8;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 1.8rem;
 }
 
-section {
-    padding: 50px 20px;
-}
-
-.card {
-    background-color: #1e293b;
-    margin: 20px auto;
-    padding: 25px;
-    border-radius: 12px;
-    max-width: 700px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
-}
-
-a {
-    color: #38bdf8;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #0ea5e9;
+.about {
+    max-width: 600px;
+    margin: auto;
 }
 
 .tech-container {
     margin-top: 20px;
 }
 
-.tech-badge {
+.tech-container span {
     display: inline-block;
-    background-color: #334155;
-    padding: 10px 18px;
+    background: #1e293b;
+    padding: 10px 20px;
     margin: 8px;
     border-radius: 20px;
-    font-size: 14px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.tech-container span:hover {
+    background: #3b82f6;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
     transition: 0.3s;
 }
 
-.tech-badge:hover {
-    background-color: #38bdf8;
-    color: black;
+.btn:hover {
+    background: #2563eb;
 }
 
 footer {
-    padding: 30px;
-    font-size: 14px;
-    background-color: #0b1220;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #94a3b8;
 }
+
+.projects {
+    margin-top: 50px;
+}
+
+.project-card {
+    background: #1e293b;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
