@@ -25,18 +25,38 @@ h2 {
     margin: auto;
 }
 
-.tech-container {
-    margin-top: 20px;
+.tech {
+    margin-top: 50px;
 }
 
-.tech-container span {
-    display: inline-block;
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.tech-card {
     background: #1e293b;
-    padding: 10px 20px;
-    margin: 8px;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 15px;
     transition: 0.3s;
-    cursor: default;
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+    background: #3b82f6;
+}
+
+.tech-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.tech-card p {
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .tech-container span:hover {
