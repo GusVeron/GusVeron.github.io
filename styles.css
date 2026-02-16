@@ -126,10 +126,16 @@ section h2 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* opcional: sombra */
 }
 
-a {
-    text-decoration: none;
-}    
+#contacto a {
+    color: #38bdf8;        /* el color que quieras */
+    text-decoration: none;  /* quita subrayado */
+    transition: 0.3s;
+}
 
+#contacto a:hover {
+    text-decoration: underline; /* opcional: subraya al pasar el mouse */
+    color: #60a5fa;             /* cambio de color al hover */
+}
 
 /* Botón arriba */
 .top-btn {
