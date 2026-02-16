@@ -112,16 +112,20 @@ section h2 {
 
 /* Certificados */
 .certificados-grid {
-    display: flex;              
-    justify-content: center;    
-    gap: 15px;                  
+    display: flex;               /* usar flex para centrar */
+    justify-content: center;     /* centra horizontalmente */
+    align-items: center;         /* centra vertical si hace falta */
+    margin-top: 20px;            /* espacio superior opcional */
 }
 
 .certificados-grid img {
-    width: 300px;               
-    height: auto;               
-    border-radius: 10px;
+    width: 200px;                /* tamaño más pequeño */
+    max-width: 80%;              /* no exceder el 80% del contenedor */
+    height: auto;                /* mantener proporción */
+    border-radius: 10px;         /* esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* opcional: sombra */
 }
+
 
 
 /* Botón arriba */
