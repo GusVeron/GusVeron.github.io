@@ -93,13 +93,16 @@ section h2 {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    cursor: default;
 }
 
-.card i {
-    margin-right: 8px;
-    font-size: 24px;
-    vertical-align: middle;
+.card:hover {
+    transform: translateY(-10px) scale(1.05);  /* sube y agranda un poco */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* sombra elegante */
+    background: #334155;                         /* cambia el fondo al pasar el mouse */
 }
+
 
 /* Proyectos */
 .project-card {
