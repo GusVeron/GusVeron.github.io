@@ -168,4 +168,63 @@ section h2 {
     cursor: pointer;
 }
 
+/* ====================== Sobre mí ====================== */
+#sobre-mi {
+    background: rgba(30, 41, 59, 0.9); /* fondo azul oscuro semi-transparente */
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    max-width: 800px;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease;
+}
+
+#sobre-mi p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e2e8f0; /* texto claro */
+}
+
+#sobre-mi:hover {
+    transform: scale(1.02); /* ligero aumento al pasar el mouse */
+}
+
+/* ====================== Educación ====================== */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline-item {
+    background: rgba(30, 41, 59, 0.9); /* fondo oscuro semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    border-left: 4px solid #38bdf8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.timeline-item span {
+    font-weight: bold;
+    color: #38bdf8;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.timeline-item h3 {
+    color: #cbd5e1;
+    margin-bottom: 5px;
+}
+
+.timeline-item p {
+    color: #e2e8f0;
+}
+
+
 
