@@ -94,13 +94,13 @@ section h2 {
     text-align: center;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-    cursor: pointer;  /* mejor usar pointer para indicar interactividad */
+    cursor: pointer;  /* indica que es interactivo */
 }
 
 .card:hover {
-    transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-    background: #334155;
+    transform: translateY(-10px) scale(1.05);  /* sube y agranda */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);   /* sombra elegante */
+    background: #334155;                        /* cambia el fondo */
 }
 
 .card i {
@@ -111,9 +111,8 @@ section h2 {
 }
 
 .card:hover i {
-    color: #38bdf8; /* color del icono al pasar el mouse */
+    color: #38bdf8;  /* cambia color del icono al hover */
 }
-
 
 /* Proyectos */
 .project-card {
