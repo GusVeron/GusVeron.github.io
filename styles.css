@@ -95,6 +95,12 @@ section h2 {
     border-radius: 10px;
 }
 
+.card i {
+    margin-right: 8px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
 /* Proyectos */
 .project-card {
     background: #1e293b;
